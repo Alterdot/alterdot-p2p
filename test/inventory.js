@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var dashcore = require('@dashevo/dashcore-lib');
+var alterdot = require('alterdot-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = dashcore.util.buffer;
-var BufferWriter = dashcore.encoding.BufferWriter;
-var BufferReader = dashcore.encoding.BufferReader;
+var BufferUtils = alterdot.util.buffer;
+var BufferWriter = alterdot.encoding.BufferWriter;
+var BufferReader = alterdot.encoding.BufferReader;
 
 describe('Inventory', function() {
 

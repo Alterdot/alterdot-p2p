@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/dashcore-p2p",
-  "version": "1.2.2",
-  "description": "Interface to the dash P2P network for Dashcore",
-  "author": "Dash Core Group, Inc. <dev@dash.org>",
+  "name": "alterdot-p2p",
+  "version": "1.0.0",
+  "description": "Interface to the alterdot P2P network for Alterdot",
+  "author": "alterdot.network",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -43,16 +43,16 @@
     }
   ],
   "keywords": [
-    "dash",
+    "adot",
     "bitcore",
-    "dashcore"
+    "alterdot"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dashcore-p2p.git"
+    "url": "https://github.com/Alterdot/alterdot-p2p.git"
   },
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.19.25",
+    "alterdot-lib": "^1.0.0",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^1.2.8"
